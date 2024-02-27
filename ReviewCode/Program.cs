@@ -10,7 +10,6 @@ namespace ReviewCode
             g.AddEdge(1, 2);
             g.AddEdge(1, 3);
             g.AddEdge(1, 5);
-            g.AddEdge(1, 10);
             g.AddEdge(2, 4);
             g.AddEdge(3, 6);
             g.AddEdge(3, 7);
@@ -19,7 +18,8 @@ namespace ReviewCode
             g.AddEdge(5, 8);
             g.AddEdge(8, 9);
 
-            g.DFS_Perform(1);
+            //g.DFS_Perform(1);
+            g.FindPath("BFS",1,7);
         }
     }
 }
